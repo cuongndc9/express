@@ -1,0 +1,7 @@
+extends ../layout/common
+block content
+	h4(style='color:orange') Detail User
+	img(width='200' src=user.avatar alt=user.name)
+	p.text-muted Id: #{user.id}
+	p.text-muted Name: #{user.name}
+	p.text-muted Email: #{user.email}

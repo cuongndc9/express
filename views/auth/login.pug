@@ -1,0 +1,13 @@
+extends ../layout/common
+block content
+	.col-md-5
+		h2.text-success Login
+		if errors
+				each error in errors
+					.alert.alert-danger= error
+		form(action='/auth/login', method='POST')
+			label(for='email') Email
+			input.form-control(type='text', name='email', value=values ? values.email : '')#email
+			label(for='password') Password
+			input.form-control(type='password', name='password', value=values ? values.password : '')#password
+			button.btn.btn-primary.my-2 Login

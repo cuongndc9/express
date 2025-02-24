@@ -1,0 +1,11 @@
+extends ../layout/common
+block content
+	form(action='/transfer/create', method='POST')
+		input(type='hidden', name="_csrf", value=csrfToken)
+		.form-group
+			label(for='account') Account
+			input.form-control(type='text', name='account')#account
+		.form-group
+			label(for='amount') Amount
+			input.form-control(type='text', name='amount')#amount
+		button.btn.btn-primary.my-2 Transfer

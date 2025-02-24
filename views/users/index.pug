@@ -1,0 +1,21 @@
+extends ../layout/common
+block content
+	a(href='/users/create').btn.btn-success.mb-2 New User
+	form.form-inline(action='/users/search', method='GET')
+		input.form-control(type='text', name='q', value=q)
+		button.btn.btn-warning.ml-2 Search
+	table.table.my-2
+		thead
+			tr
+				th #
+				th Name
+				th Email
+				th Actions
+		tbody
+			each user, index in users
+				tr
+					td #{index + 1}
+					td #{user.name}
+					td #{user.email}
+					td 
+						a.btn.btn-primary(href='/users/' + user.id) Detail
