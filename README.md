@@ -8,5 +8,5 @@
 
 
 <!-- INSPIRATIONAL_QUOTE_START -->
-> "People who are crazy enough to think they can change the world, are the ones who do." - Rob Siltanen
+> "Life is what happens to you while you're busy making other plans." - John Lennon
 <!-- INSPIRATIONAL_QUOTE_END -->
