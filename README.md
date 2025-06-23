@@ -8,5 +8,5 @@
 
 
 <!-- INSPIRATIONAL_QUOTE_START -->
-> "If you are working on something that you really care about, you don't have to be pushed. The vision pulls you." - Steve Jobs
+> "Don't be afraid to give up the good to go for the great." - John D. Rockefeller
 <!-- INSPIRATIONAL_QUOTE_END -->
